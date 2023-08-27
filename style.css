@@ -600,22 +600,22 @@ section {
 }
 
 .skill-bar .bar .html {
-    width: 72%;
+    width: 90%;
     animation: html 2s;
 }
 
-.skill-bar .bar .figma {
-    width: 90%;
-    animation: figma 3s;
+.skill-bar .bar .django {
+    width: 85%;
+    animation: django 3s;
 }
 
 .skill-bar .bar .javascript {
-    width: 80%;
+    width: 60%;
     animation: javascript 4s;
 }
 
 .skill-bar .bar .css {
-    width: 62%;
+    width: 70%;
     animation: css 5s;
 }
 
@@ -807,17 +807,17 @@ footer a i{
     }
 
     100% {
-        width: 72%;
+        width: 90%;
     }
 }
 
-@keyframes figma {
+@keyframes django {
     0% {
         width: 0%;
     }
 
     100% {
-        width: 90%;
+        width: 85%;
     }
 }
 
@@ -827,7 +827,7 @@ footer a i{
     }
 
     100% {
-        width: 80%;
+        width: 60%;
     }
 }
 
@@ -837,7 +837,7 @@ footer a i{
     }
 
     100% {
-        width: 62%;
+        width: 70%;
     }
 }
 

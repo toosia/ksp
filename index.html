@@ -50,7 +50,7 @@
             </div>
             <div class="btn-box">
                 <a onclick="downloadResume()" href="" class="btn ">Download CV</a>
-                <a onclick="sendEmail()" href="" class="btn ">Hire Me Now </a>
+                <a id="hireNow" href="" class="btn ">Hire Me Now </a>
             </div>
             <div class="social-icons">
                 <a href="https://www.linkedin.com/in/kushagrasingh4/"><i class="bx bxl-linkedin"></i></a>
@@ -207,7 +207,7 @@
                 <div class="skill-bar">
                     <div class="info">
                         <p>HTML</p>
-                        <p>72%</p>
+                        <p>90%</p>
                     </div>
                     <div class="bar">
                         <span class="html"></span>
@@ -215,17 +215,17 @@
                 </div>
                 <div class="skill-bar">
                     <div class="info">
-                        <p>Figma</p>
-                        <p>90%</p>
+                        <p>Django</p>
+                        <p>85%</p>
                     </div>
                     <div class="bar">
-                        <span class="figma"></span>
+                        <span class="django"></span>
                     </div>
                 </div>
                 <div class="skill-bar">
                     <div class="info">
                         <p>JavaScript</p>
-                        <p>80%</p>
+                        <p>60%</p>
                     </div>
                     <div class="bar">
                         <span class="javascript"></span>
@@ -234,7 +234,7 @@
                 <div class="skill-bar">
                     <div class="info">
                         <p>CSS</p>
-                        <p>62%</p>
+                        <p>70%</p>
                     </div>
                     <div class="bar">
                         <span class="css"></span>
@@ -283,17 +283,17 @@
             <span>Ask Me Question</span>
             <h2>Contact Me</h2>
         </div>
-
-        <form id="myForm" method="post" action="https://script.google.com/macros/s/AKfycbxBuYPtxDX29Xs5z99FPinhTbsHsLUytAHiLbwAS-jVhjizWc3cqAyD2VrHCK-AbPRm-w/exec">
+        <h1 id="msg"></h1>
+        <form id="myForm" >
             <input type="text" placeholder="Your Name" name="name">
             <input type="text" placeholder="Your Email" name="email">
             <input type="text" placeholder="Your Address" name="address">
             <input type="number" placeholder="Phone Number" name="phonenumber">
             <textarea  cols="30" rows="10" placeholder="Your Message" name="message"></textarea>
             <div class="btn-box formbtn">
-                <button type="submit" class="btn">Send Message</button>
+                <button id="sub" type="submit" class="btn" >Send Message</button>
             </div>
-            <div id="responseMessage" style="display: none;"></div>
+            
         </form>
     </section>
     <!-- footer section------------------------------------------- -->
