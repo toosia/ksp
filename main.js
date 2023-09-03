@@ -131,8 +131,9 @@ form.addEventListener('submit', (e) =>{
     })
     .then(res => res.text())
     .then(data => {
-        document.querySelector("#msg");
-        document.querySelector("#sub").value="submt"
+        document.querySelector("#msg").innerHTML=data;
+        document.querySelector("#sub").value="submit"
+
         form.reset();
     });
 })
