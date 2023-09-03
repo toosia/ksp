@@ -131,8 +131,15 @@ form.addEventListener('submit', (e) =>{
     })
     .then(res => res.text())
     .then(data => {
-        document.querySelector("#msg").innerHTML=data;
         document.querySelector("#sub").value="submit"
+        document.querySelector("#msg").innerHTML=data;
+        setTimeout(() => {
+            const msg = document.getElementById('msg');
+          
+            
+            msg.style.display = 'none';
+          }, 1000);
+          
 
         form.reset();
     });
